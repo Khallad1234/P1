@@ -1,0 +1,72 @@
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.card {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 93, 200);
+}
+ul {
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    list-style: none;
+    align-content: space-evenly;
+    gap: 5px;
+    border: 2px  black;
+    width:fit-content;
+    padding: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#pass {
+    position: relative;
+    right: 25px;
+}
+.check {
+    position: relative;
+    right: 25px;
+}
+.si {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.si:hover {
+    background-color: aqua;
+    scale: 1.05;
+    transition: 0.5s;
+}
+.c{
+    margin-top: 20px;
+    scale: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+.a:hover {
+    scale: 1;
+    transition: 0.5s;
+    color: darkcyan;
+
+}
+.b:hover{
+    scale: 1;
+    transition: 0.5s;
+    color: darkcyan;
+}
+body{
+    background-image: url("/IMG/elephant-rock-alula.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

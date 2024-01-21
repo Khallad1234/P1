@@ -1,10 +1,11 @@
-
+/* logo position */
 .logo{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
+/* login style */
 .card {
     color: goldenrod;
     display: flex;
@@ -12,11 +13,13 @@
     align-items: center;
     margin-top: 50px;
 }
+/* link style */
 a {
     text-decoration: none;
     color: rgb(0, 93, 200);
 }
-ul {
+/* login content style */
+.ul {
     background-color: bisque;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: grid;
@@ -27,18 +30,22 @@ ul {
     width:fit-content;
     padding: 30px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
+    /* password position */
 #pass {
     position: relative;
     right: 28px;
 }
+/* checkbox position */
 .check {
     position: relative;
     right: 25px;
 }
+/* submit position */
 .si {
     margin-top: 20px;
     margin-left: 100px;
 }
+/* submit style */
 #button {
     width: 100px;
     border: 0.5px solid rgb(0, 0, 0);
@@ -46,12 +53,13 @@ ul {
     background-color: bisque;
 
 }
+/* submit hover style */
 #button:hover {
     background-color: rgb(255, 208, 90);
     scale: 1.05;
     transition: 0.5s;
 }
-
+/* login problems display */
 .c{
     margin-top: 20px;
     scale: 0.9;
@@ -60,17 +68,22 @@ ul {
     align-items: center;
     gap: 3px;
 }
-a:hover {
+/* link hover style */
+.c:hover {
     scale: 1.1;
     transition: 0.5s;
     color: darkcyan;
 
 }
-
-
+.b:hover {
+    scale: 1.1;
+    transition: 0.5s;
+    color: darkcyan;
+}
+/* background image */
 body{
     background-image: url("/IMG/elephant-rock-alula.webp");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     
 }

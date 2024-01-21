@@ -1,0 +1,28 @@
+/* footer position and color */
+footer {
+    background-color: #221b1b ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 325px;
+    width: 1380px;
+    position: relative;
+    right: 7px;
+  }
+  /* footer links display */
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  /* footer links position */
+  .footer-links li {
+    margin: 0 10px;
+  }
+  /* footer links style */
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+  
+  }

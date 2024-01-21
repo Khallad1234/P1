@@ -1,0 +1,76 @@
+body{
+    background-image: url("../IMG/aa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid {
+    display: grid;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    height: 900px;
+}
+
+.vid {
+    position: relative;
+}
+
+video {
+    width: 700px;
+    height: 600px;
+}
+#alula{
+    color: rgb(227, 88, 88);
+      height: 400px;
+     transform: scale(2);   
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    pointer-events: none;
+}
+.h{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(221, 194, 160);
+    border: 3px solid black;
+}
+#h1{
+   box-shadow: 10px 9px 19px rgb(61, 59, 59); 
+    display: inline-block; 
+    padding: 0%;   
+}
+.background{
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: end;
+    height: 500px;
+}
+.cards{
+    border: 2px dashed black;
+    height: 400px;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: rgb(248, 234, 215);
+}
+.h21{
+    color: rgb(231, 195, 148);
+}

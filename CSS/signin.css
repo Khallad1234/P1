@@ -1,0 +1,76 @@
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.card {
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 93, 200);
+}
+ul {
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    list-style: none;
+    align-content: space-evenly;
+    gap: 5px;
+    border: 2px  black;
+    width:fit-content;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
+#pass {
+    position: relative;
+    right: 28px;
+}
+.check {
+    position: relative;
+    right: 25px;
+}
+.si {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#button {
+    width: 100px;
+    border: 0.5px solid rgb(0, 0, 0);
+    color: rgb(218, 165, 32);
+    background-color: bisque;
+
+}
+#button:hover {
+    background-color: rgb(255, 208, 90);
+    scale: 1.05;
+    transition: 0.5s;
+}
+
+.c{
+    margin-top: 20px;
+    scale: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+a:hover {
+    scale: 1.1;
+    transition: 0.5s;
+    color: darkcyan;
+
+}
+
+
+body{
+    background-image: url("/IMG/elephant-rock-alula.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

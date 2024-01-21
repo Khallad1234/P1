@@ -6,7 +6,7 @@
     margin-top: 50px;
 }
 .card {
-    
+    color: goldenrod;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,11 +26,10 @@ ul {
     border: 2px  black;
     width:fit-content;
     padding: 30px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
 #pass {
     position: relative;
-    right: 25px;
+    right: 28px;
 }
 .check {
     position: relative;
@@ -40,11 +39,19 @@ ul {
     margin-top: 20px;
     margin-left: 100px;
 }
-.si:hover {
-    background-color: aqua;
+#button {
+    width: 100px;
+    border: 0.5px solid rgb(0, 0, 0);
+    color: rgb(218, 165, 32);
+    background-color: bisque;
+
+}
+#button:hover {
+    background-color: rgb(255, 208, 90);
     scale: 1.05;
     transition: 0.5s;
 }
+
 .c{
     margin-top: 20px;
     scale: 0.9;
@@ -53,17 +60,14 @@ ul {
     align-items: center;
     gap: 3px;
 }
-.a:hover {
-    scale: 1;
+a:hover {
+    scale: 1.1;
     transition: 0.5s;
     color: darkcyan;
 
 }
-.b:hover{
-    scale: 1;
-    transition: 0.5s;
-    color: darkcyan;
-}
+
+
 body{
     background-image: url("/IMG/elephant-rock-alula.webp");
     background-repeat: no-repeat;

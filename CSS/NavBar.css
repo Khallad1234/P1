@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #e4ffe4; 
+    background-color: #FFDD95; 
     /* background-color: #B19470; */
   }
 
@@ -82,13 +82,13 @@ body {
 
 
  .t1 {
-background-color: #3d49d0;
+background-color: #7E6363;
 padding: 10px;
 border-radius: 8px;
  }
 
 .t2 {
-background-color: rgb(72, 4, 4);
+background-color:#503C3C;
 padding: 10px;
 border-radius: 8px;
 
@@ -98,7 +98,7 @@ border-radius: 8px;
 
 .t3 {
   margin-right: 20px;
-  background-color: rgb(126, 5, 5);
+  background-color:#3E3232;
   padding: 10px;
   border-radius: 8px;
 

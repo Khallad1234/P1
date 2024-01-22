@@ -20,7 +20,7 @@ body {
     justify-content: end;
     align-items: center;
     background-color: #221b1b; 
-    /* background-color: #76453B; */
+     
     padding: 20px;
     color: #ffffff;
     margin-bottom: 20px;
@@ -53,7 +53,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: start;
-   margin-right: 280px;
+   margin-right: 250px;
    
   }
 

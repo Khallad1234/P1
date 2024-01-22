@@ -80,7 +80,16 @@ hr{
     width: 100%;
     background-color: black;
 }
-.cards{
+.container {
+    position: relative;
+}
+
+.img_container:hover .cards {
+    animation: slide;
+    animation-play-state: running;
+}
+
+.cards {
     border: 2px solid black;
     height: 400px;
     width: 480px;
@@ -90,19 +99,19 @@ hr{
     background-color: rgb(244, 228, 205);
     margin-top: 15px;
     margin-right: 15px;
-    position: relative;
+    position: absolute;
 }
-.cards:hover{
-    animation: slide;
-    animation-play-state: running;
-    animation-duration: 3s;
-    cursor: pointer;
+
+@keyframes slide {
+    from {
+        margin-right: 10px;
+    }
+    to {
+        margin-right: 350px;
+    }
 }
-@keyframes slide{
-    from{margin-right: 10px;}
-    to{margin-right: 350px;}
-}
-.img{
+
+.img {
     height: 400px;
     width: 480px;
     display: flex;
@@ -110,4 +119,9 @@ hr{
     align-items: end;
     margin-top: 15px;
     margin-right: 15px;
+}
+
+.background {
+    position: relative;
+    overflow: hidden;
 }

@@ -24,33 +24,32 @@ a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: grid;
     list-style: none;
-    align-content: space-evenly;
+    justify-content: center;
+    align-content: center;
     gap: 5px;
     border: 2px  black;
-    width:fit-content;
+    width:500px;
     padding: 30px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
-    /* password position */
-#pass {
-    position: relative;
-    right: 28px;
-}
-/* checkbox position */
-.check {
-    position: relative;
-    right: 25px;
-}
+    /* input position */
+    input {
+        display: flex;
+        flex-direction: column;
+    }
 /* submit position */
 .si {
     margin-top: 20px;
-    margin-left: 100px;
+    margin-right: 45px;
 }
 /* submit style */
 #button {
+    display: flex;
+    align-items: center;
     width: 100px;
     border: 0.5px solid rgb(0, 0, 0);
     color: rgb(218, 165, 32);
     background-color: bisque;
+
 
 }
 /* submit hover style */
@@ -59,23 +58,8 @@ a {
     scale: 1.05;
     transition: 0.5s;
 }
-/* login problems display */
-.c{
-    margin-top: 20px;
-    scale: 0.9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3px;
-}
 /* link hover style */
-.c:hover {
-    scale: 1.1;
-    transition: 0.5s;
-    color: darkcyan;
-
-}
-.b:hover {
+a:hover {
     scale: 1.1;
     transition: 0.5s;
     color: darkcyan;

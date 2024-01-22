@@ -6,8 +6,9 @@
     <title>إنشاء حساب</title>
     <link rel="stylesheet" href="../CSS/signin.css">
     <link rel="stylesheet" href="../CSS/signinfooter.css">
+    
 </head>
-<body>
+<body dir="rtl">
   <!-- logo -->
     <div class="logo">
                 <img src="../IMG/alula-logo.webp" alt="">
@@ -16,27 +17,41 @@
     <section class="card">
         
         <ul class="ul">
-          <h1>sign in</h1>
+          <h1>انشاء حساب</h1>
           <li>
             <!-- sign in info -->
             <div>
-                <label for="email">your email:</label>
-                <input type="email" required>
+                <label for="name">الاسم الاول</label>
+                <input type="name" required>
                 
             </div>
           </li>
           <li>
+            
+            <div>
+                <label for="name">اسم العائلة</label>
+                <input type="name" required>
+                
+            </div>
+          <li>
+            <div>
+                <label for="email">البريد الالكتروني</label>
+                <input type="email" required>
+            </div>  
+          </li>
+          <li>
             <div id="pass">
-                <label for="password">your password:</label>
+                <label for="password">كلمة المرور</label>
                 <input type="password" required>
             </div>
           </li>
           <li>
             <!-- terms and conditions -->
-            <div class="check">
-                <label for="checkbox">by checking this box,
+            <div class="check" >
+                <label for="checkbox">,بالضغط على هذا الصندوق
                   <br>
-                  you agree to our <br> <a href="##"><b>terms and conditions</b></a>
+                  انت توافق على<br>
+                  <a href="##"><b>الأحكام والشروط</b></a>
                 </label>
                 <input type="checkbox" required>
                 
@@ -45,27 +60,18 @@
           </li>
           <li>
             <div class="si">
-              <input id="button" type="submit" value="sign in">
-            </div>
-          </li>
-          <li>
-            <!-- problems with signing in -->
-            <div class="c" >
-              <a class="b" href="##">forgot your password?</a>
-              <a class="a" href="##">don't have an account?</a>
+              <input id="button" type="submit" value="انشاء الحساب">
             </div>
           </li>
         </ul>
     </section>
     <!-- footer -->
     <footer>
-        <ul class="footer-links">
+      <ul class="footer-links">
           <li><a href="/HTML/Home.html">الرئيسية </a></li>
           <li><a href="#"></a>نبذة</li>
           <li><a href="#">منصاتنا</a></li>
           <li><a href="#">مواقعنا</a></li>
-        </ul>
-        <p>&copy; تم انشاء هذا الموقع بمساعدة مدربين اكاديمية طويق في 2024</p>
+      </ul>
+      <p>&copy; تم انشاء هذا الموقع بمساعدة مدربين اكاديمية طويق في 2024</p>
     </footer>
-</body>
-</html>

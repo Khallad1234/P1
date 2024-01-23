@@ -65,9 +65,9 @@ video {
 /* Cards */
 
 .cards_background{
-    border: 2px solid black;
-    background-color: burlywood ;
-    
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 .card{
     display: flex;
@@ -81,7 +81,7 @@ video {
 }
 #card1{
     margin-top: 25px;
-    margin-right: 25px;
+    margin-right: 525px;
 }
 @keyframes slide {
     from {right: 15px;}
@@ -101,11 +101,9 @@ video {
     width: 490px;
     position: relative;
     left: 490px;
+    border: 2px solid black;
 }
-/* display: flex;
-    justify-content: end;
-    align-items: end;
-     */
-
-
-
+#vid2{
+    position: relative;
+    bottom: 170px;
+}

@@ -14,9 +14,12 @@
     margin-top: 50px;
 }
 /* link style */
-a {
-    text-decoration: none;
+#a {
+
     color: rgb(0, 93, 200);
+}
+a {
+    text-decoration: none; 
 }
 /* login content style */
 .ul {
@@ -43,14 +46,13 @@ a {
 }
 /* submit style */
 #button {
+    text-decoration: none;
     display: flex;
     align-items: center;
-    width: 100px;
-    border: 0.5px solid rgb(0, 0, 0);
+    
+    border: 0.5px none rgb(0, 0, 0);
     color: rgb(218, 165, 32);
     background-color: bisque;
-
-
 }
 /* submit hover style */
 #button:hover {
@@ -58,8 +60,21 @@ a {
     scale: 1.05;
     transition: 0.5s;
 }
+#button2 {
+    display: flex;
+    justify-content: center;
+    border: 0.5px solid rgb(0, 0, 0);
+    color: rgb(218, 165, 32);
+    background-color: bisque;
+    width: 100px;
+}
+#button2:hover{
+    background-color: rgb(255, 208, 90);
+    scale: 1.05;
+    transition: 0.5s;
+}
 /* link hover style */
-a:hover {
+#a:hover {
     scale: 1.1;
     transition: 0.5s;
     color: darkcyan;

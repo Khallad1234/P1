@@ -47,6 +47,7 @@
     font-size: 24px;
     color: #333;
     font-weight: 700;
+    text-align: center;
   }
   
   .card__description {
@@ -54,6 +55,7 @@
     font-size: 14px;
     color: #777;
     line-height: 1.4;
+  text-align: center;
   }
   
   .card:hover svg {
